@@ -24,11 +24,14 @@
 }
 
 .custom-input {
-  @apply border border-[#455668] bg-[#121427] rounded-lg py-2 transition-all;
+  @apply border rounded-lg py-2 transition-all;
+  border-color: #455668;
+  background-color: #121427;
 }
 
 .custom-input:focus-within {
-  @apply border-[#3B82F6];
+  @apply border;
+  border-color: #3B82F6;
 }
 
 .custom-input.error {
